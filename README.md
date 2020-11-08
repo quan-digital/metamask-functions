@@ -954,6 +954,8 @@ async approvePermissionsRequest(approved, accounts) {
     }
 ```
 
+## https://github.com/MetaMask/metamask-extension/blob/2ebf8756a4c1023e45e4bd98367f384836cb464a/app/scripts/controllers/permissions/permissionsMethodMiddleware.js#L7
+
 ```javascript
 import { ethErrors } from 'eth-json-rpc-errors'
 ```
@@ -1127,7 +1129,7 @@ export default function createMetamaskMiddleware({
 ```
 
 ## https://github.com/MetaMask/metamask-extension/blob/9095ae3f47cf507a7166048db6000d514510099e/app/scripts/controllers/network/createJsonRpcClient.js#L17
-```
+
 ```javascript
 import createFetchMiddleware from 'eth-json-rpc-middleware/fetch'
 import createBlockRefRewriteMiddleware from 'eth-json-rpc-middleware/block-ref-rewrite'
