@@ -1265,5 +1265,3 @@ export default class EnsController {
     return this._reverseResolveAddress(ethUtil.toChecksumAddress(address))
   }
 ```
-
-
